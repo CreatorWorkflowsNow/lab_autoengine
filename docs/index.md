@@ -20,14 +20,14 @@ has_children: true
 [Lab][RPA Lab]{: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 [Auto Center Docs]: https://docs.servicenow.com/csh?topicname=automation-center-landing-page.html&version=latest
-[Auto Center Lab]: /docs/automation_center/
+[Auto Center Lab]: https://creatorworkflowsnow.github.io/lab_autoengine/docs/automation_center/
 
 [Doc Intel Docs]: https://docs.servicenow.com/csh?topicname=document-intelligence-landing.html&version=latest
-[Doc Intel Lab]: /docs/doc_intel/
+[Doc Intel Lab]: https://creatorworkflowsnow.github.io/lab_autoengine/docs/doc_intel/
 
 [IHub Docs]: https://docs.servicenow.com/csh?topicname=integrationhub.html&version=latest
-[IHub Lab]: /docs/ihub/
+[IHub Lab]: https://creatorworkflowsnow.github.io/lab_autoengine/docs/ihub/
 
 [RPA Docs]: https://docs.servicenow.com/csh?topicname=rpa-main-landing-page.html&version=latest
-[RPA Lab]:  /docs/rpa
+[RPA Lab]:  https://creatorworkflowsnow.github.io/lab_autoengine/docs/rpa
 
