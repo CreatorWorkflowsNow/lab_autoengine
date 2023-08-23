@@ -18,8 +18,8 @@ remote_theme: just-the-docs/just-the-docs
 # in the templates via {{ site.myvariable }}.
 title: Automation Engine Labs
 #description: Hello World Description
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: https://creatorworkflowsnow.github.io/lab_autoengine/
+url: 'https://creatorworkflowsnow.github.io/'
+baseurl: '/lab_autoengine' # the subpath of your site, e.g. /blog
 
 permalink: pretty
 
@@ -32,28 +32,26 @@ permalink: pretty
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 exclude:
-   - .sass-cache/
-   - .jekyll-cache/
-   - gemfiles/
-   - Gemfile
-   - Gemfile.lock
-   - node_modules/
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
- # specific to the theme website:
-   - bin/
-   - lib/
-   - "*.gemspec"
-   - "*.gem"
-   - LICENSE.txt
-   - package.json
-   - package-lock.json
-   - Rakefile
-   - README.md
-
-
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # specific to the theme website:
+  - bin/
+  - lib/
+  - "*.gemspec"
+  - "*.gem"
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
 
 ################################################################################
 # <<< Just the Docs - Config Options >>>
@@ -92,7 +90,6 @@ search:
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
   button: false
-
 
 # To disable support for mermaid diagrams (https://mermaid-js.github.io/mermaid/),
 # comment out the `mermaid` and `version` keys below
@@ -134,9 +131,6 @@ nav_external_links:
 #    url: https://low-code.guide/docs/Telework/Introduction/
 #    hide_icon: false # set to true to hide the external link icon - defaults to false
 
-
-
-
 # Footer content
 # appears at the bottom of every page's main content
 
@@ -146,12 +140,11 @@ back_to_top_text: "Back to top"
 
 # Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust
 #markup / liquid-based content.
-footer_content: "Copyright &copy; 2022 <a href=\"https://www.servicenow.com\">ServiceNow</a>."
+footer_content: 'Copyright &copy; 2022 <a href="https://www.servicenow.com">ServiceNow</a>.'
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: false # [false/true] # show or hide edit this page link
@@ -196,7 +189,6 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
-
 ################################################################################
 # <<< Jekyll configs >>>
 # Plugins (previously gems:)
@@ -211,4 +203,4 @@ compress_html:
 #  - jekyll-feed
 #  - jemoji
 #  - jekyll-include-cache
-#  - jekyll-remote-theme 
+#  - jekyll-remote-theme
